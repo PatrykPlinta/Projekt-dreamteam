@@ -1,0 +1,52 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#lewy {
+    width: 24%;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #aaa;
+    min-height: 95vh;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: visible;
+
+    a {
+        color: black;
+        font-size: 30px;
+        padding: 15px;
+        display: block;
+    }
+}
+
+#prawy {
+    width: 75%;
+    height: 95vh;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#form {
+    padding: 15px;
+    box-sizing: border-box;
+
+    div {
+        margin: 10px;
+
+        textarea {
+            resize: none;
+            overflow-x: hidden;
+        }
+    }
+}
